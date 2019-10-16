@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395263142726",
+    "firebase_url": "https://tcc-olx.firebaseio.com",
+    "project_id": "tcc-olx",
+    "storage_bucket": "tcc-olx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395263142726:android:8a55ef93d05c8050",
+        "android_client_info": {
+          "package_name": "com.example.olx_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395263142726-jnr1kb3casartvm0hbp65mpbdm6eukil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Enql86JBHCrCdivG0291YZYJaL5fF6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395263142726-jnr1kb3casartvm0hbp65mpbdm6eukil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
