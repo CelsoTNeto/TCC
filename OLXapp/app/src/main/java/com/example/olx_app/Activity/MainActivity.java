@@ -1,6 +1,7 @@
 package com.example.olx_app.Activity;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -26,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         campoNome = findViewById(R.id.campoNome);
         campoEmail = findViewById(R.id.campoEmail);
         campoSenha = findViewById(R.id.campoSenha);
-        campoEndereco = findViewById(R.id.campoEndereco);
-        campoTelefone = findViewById(R.id.campoTEL);
+        //campoEndereco = findViewById(R.id.campoEndereco);
+        //campoTelefone = findViewById(R.id.campoTEL);
         campoCPF = findViewById(R.id.campoCPF);
 
 
@@ -50,15 +51,15 @@ public class MainActivity extends AppCompatActivity {
         String textoNome = campoNome.getText().toString();
         String textoEmail = campoEmail.getText().toString();
         String textoSenha = campoSenha.getText().toString();
-        String textoEndereco = campoEndereco.getText().toString();
-        String textoTelefone = campoTelefone.getText().toString();
+        //String textoEndereco = campoEndereco.getText().toString();
+       // String textoTelefone = campoTelefone.getText().toString();
         String textoCPF = campoCPF.getText().toString();
 
         if (!textoNome.isEmpty() &&
                 !textoEmail.isEmpty() &&
                 !textoSenha.isEmpty() &&
-                !textoEndereco.isEmpty() &&
-                !textoTelefone.isEmpty() &&
+               // !textoEndereco.isEmpty() &&
+               // !textoTelefone.isEmpty() &&
             !textoCPF.isEmpty()) {
 
         }

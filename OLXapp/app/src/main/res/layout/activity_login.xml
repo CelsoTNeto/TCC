@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".config.CPFauth">
+    tools:context=".config.login">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -21,14 +21,14 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="293dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="184dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:adjustViewBounds="false"
@@ -41,7 +41,7 @@
                 android:layout_gravity="center"
                 android:text="@string/app_name"
                 android:textAlignment="center"
-                android:textSize="20dp" />
+                android:textSize="30dp" />
 
 
         </LinearLayout>
@@ -55,60 +55,35 @@
             <EditText
                 android:drawableStart="@drawable/ic_person_black_24dp"
                 android:drawableLeft="@drawable/ic_person_black_24dp"
-                android:id="@+id/campoNome"
+                android:id="@+id/username"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:padding="10dp"
                 android:layout_marginTop="30dp"
                 android:background="@color/colorPrimaryDark"
-                android:hint="Nome"
+                android:hint="Username"
                 android:inputType="textPersonName" />
 
             <EditText
                 android:drawableStart="@drawable/ic_lock_black_24dp"
                 android:drawableLeft="@drawable/ic_lock_black_24dp"
                 android:layout_marginTop="10dp"
-                android:id="@+id/campoSenha"
+                android:id="@+id/password"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:padding="10dp"
                 android:layout_gravity="center"
                 android:inputType="textPassword"
-                android:hint="Senha"
-                android:background="@color/colorPrimaryDark"/>
-
-            <EditText
-                android:drawableStart="@drawable/ic_arrow_forward_black_24dp"
-                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/campoCPF"
-                android:layout_width="350dp"
-                android:layout_height="50dp"
-                android:padding="10dp"
-                android:layout_gravity="center"
-                android:inputType="textPassword"
-                android:hint="CPF"
-                android:background="@color/colorPrimaryDark"/>
-
-            <EditText
-                android:drawableStart="@drawable/ic_arrow_forward_black_24dp"
-                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/campoEmail"
-                android:layout_width="350dp"
-                android:layout_height="50dp"
-                android:padding="10dp"
-                android:layout_gravity="center"
-                android:inputType="textPassword"
-                android:hint="E-mail"
+                android:hint="Password"
+                android:textColor="#ffffff"
                 android:background="@color/colorPrimaryDark"/>
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="320dp"
                 android:layout_height="50dp"
-                android:text="Cadastrar"
+                android:text="Button"
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
                 android:textColor="#ffffff"
@@ -118,5 +93,4 @@
 
         </LinearLayout>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

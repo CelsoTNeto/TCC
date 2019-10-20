@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OLX-app</string>
+    <string name="title_activity_login">login</string>
 </resources>
