@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".config.CPFauth">
+    tools:context=".Activity.MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -87,7 +87,7 @@
                 android:layout_height="50dp"
                 android:padding="10dp"
                 android:layout_gravity="center"
-                android:inputType="textPassword"
+                android:inputType="number"
                 android:hint="CPF"
                 android:background="@color/colorPrimaryDark"/>
 
@@ -100,19 +100,21 @@
                 android:layout_height="50dp"
                 android:padding="10dp"
                 android:layout_gravity="center"
-                android:inputType="textPassword"
+                android:inputType="textEmailAddress"
                 android:hint="E-mail"
                 android:background="@color/colorPrimaryDark"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnCadastrar"
                 android:layout_width="320dp"
                 android:layout_height="50dp"
                 android:text="Cadastrar"
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
                 android:textColor="#ffffff"
-                android:background="@color/colorPrimary"/>
+                android:background="@color/colorPrimary"
+                android:onClick="validarUsuario"
+                />
             />
 
 

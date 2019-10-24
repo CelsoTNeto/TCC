@@ -80,7 +80,7 @@
                 android:background="@color/colorPrimaryDark"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnCadastrar"
                 android:layout_width="320dp"
                 android:layout_height="50dp"
                 android:text="Button"
