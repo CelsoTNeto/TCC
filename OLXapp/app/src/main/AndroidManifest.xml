@@ -10,7 +10,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".config.login"></activity>
+        <activity
+            android:name=".Activity.CadastroPJ"
+            android:label="@string/title_activity_cadastro_pj"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nav_drawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.login" />
         <activity android:name=".config.CPFauth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".Activity.CadastroPF">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

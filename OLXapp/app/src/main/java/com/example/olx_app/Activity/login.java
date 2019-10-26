@@ -1,4 +1,4 @@
-package com.example.olx_app.config;
+package com.example.olx_app.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
