@@ -1,11 +1,14 @@
 package com.example.olx_app.config;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.olx_app.R;
 
 import java.util.InputMismatchException;
+
+
 
 public class CPFauth extends AppCompatActivity {
 
@@ -16,12 +19,10 @@ public class CPFauth extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_cadastro);
+
     }
 
-
-
-
-        public static boolean isCPF(String campoCPF) {
+    public static boolean validaCPF(String campoCPF) {
             // considera-se erro CPF's formados por uma sequencia de numeros iguais
             if (campoCPF.equals("00000000000") || campoCPF.equals("11111111111") ||
                     campoCPF.equals("22222222222") || campoCPF.equals("33333333333") ||
@@ -76,5 +77,7 @@ public class CPFauth extends AppCompatActivity {
             }
         }
 
-
 }
+
+
+

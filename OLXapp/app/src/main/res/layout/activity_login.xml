@@ -22,12 +22,12 @@
 
             android:layout_width="match_parent"
             android:layout_height="293dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="#ffffff"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
+                android:layout_width="205dp"
                 android:layout_height="184dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
@@ -53,17 +53,21 @@
 
 
             <EditText
-                android:drawableStart="@drawable/ic_person_black_24dp"
-                android:drawableLeft="@drawable/ic_person_black_24dp"
+
                 android:id="@+id/username"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:padding="10dp"
                 android:layout_marginTop="30dp"
-                android:background="@color/colorPrimaryDark"
+                android:background="#000000"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:textColorHint="#FFFFFF"
                 android:hint="Username"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:padding="10dp"
+
+                 />
 
             <EditText
                 android:drawableStart="@drawable/ic_lock_black_24dp"
@@ -76,17 +80,27 @@
                 android:layout_gravity="center"
                 android:inputType="textPassword"
                 android:hint="Password"
+                android:textColorHint="#FFFFFF"
                 android:textColor="#ffffff"
-                android:background="@color/colorPrimaryDark"/>
+                android:background="#000000"/>
 
             <Button
+<<<<<<< HEAD
                 android:id="@+id/btnValidar"
+=======
+                android:id="@+id/btnLogar"
+>>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
                 android:layout_width="320dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
+<<<<<<< HEAD
                 android:background="@color/colorPrimary"
                 android:text="Button"
+=======
+                android:background="#2F4F4F"
+                android:text="Logar"
+>>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
                 android:textColor="#ffffff" />
             />
 

@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">OLX-app</string>
+<<<<<<< HEAD
     <string name="title_activity_login">login</string>
     <string name="title_activity_nav_drawer">nav_drawer</string>
+=======
+    <string name="title_activity_login" translatable="false">login</string>
+    <string name="title_activity_principal">activityPrincipal</string>
+>>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -15,5 +20,8 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+<<<<<<< HEAD
     <string name="title_activity_cadastro_pj">CadastroPJ</string>
+=======
+>>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
 </resources>
