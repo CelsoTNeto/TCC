@@ -8,7 +8,7 @@
                 android:id="@+id/btn"
                 android:layout_width="320dp"
                 android:layout_height="50dp"
-                android:text="jkgl"
+                android:text="TESTE"
                 android:layout_gravity="center"
                 android:title="@string/menu_home"
             />

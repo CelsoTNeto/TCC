@@ -1,12 +1,10 @@
 <resources>
-    <string name="app_name">OLX-app</string>
-<<<<<<< HEAD
+    <string name="app_name">Leilão AutoPeças Tech</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_cadastrar">Cadastre-se</string>
     <string name="title_activity_login">login</string>
     <string name="title_activity_nav_drawer">nav_drawer</string>
-=======
-    <string name="title_activity_login" translatable="false">login</string>
     <string name="title_activity_principal">activityPrincipal</string>
->>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -14,14 +12,16 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Inserir Anúncio</string>
+    <string name="menu_slideshow">Chat</string>
     <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-<<<<<<< HEAD
+    <string name="menu_share">Perfil</string>
+    <string name="menu_send">Sair</string>
+
     <string name="title_activity_cadastro_pj">CadastroPJ</string>
-=======
->>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
+
+
+    <string name="campo_email">E-mail</string>
+
 </resources>

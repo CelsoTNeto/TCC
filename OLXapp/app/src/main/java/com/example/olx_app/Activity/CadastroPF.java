@@ -21,7 +21,7 @@ public class CadastroPF extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_cadastro);
         campoNome = findViewById(R.id.campoNome);
         campoEmail = findViewById(R.id.campoEmail);
         campoSenha = findViewById(R.id.campoSenha);

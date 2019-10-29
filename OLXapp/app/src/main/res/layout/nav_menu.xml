@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_menu_drawer"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/nav_header_nao_logado"/>
+
+    <include layout="@layout/nav_header_logado"/>
+
+    <!-- Código da primeira e principal lista de itens. -->
+
+    <!-- Código da segunda lista de itens. -->
+</LinearLayout>

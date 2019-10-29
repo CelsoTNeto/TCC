@@ -1,6 +1,5 @@
 package com.example.olx_app.config;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -18,7 +17,7 @@ public class CPFauth extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tela_cadastro);
+        setContentView(R.layout.activity_cadastro);
 
     }
 

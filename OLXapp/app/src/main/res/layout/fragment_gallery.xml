@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-<<<<<<< HEAD
-=======
+
     xmlns:tools="http://schemas.android.com/tools"
->>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
+
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -17,12 +16,6 @@
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
-<<<<<<< HEAD
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-=======
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,5 +29,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_gallery" />
->>>>>>> a6d559837fa513a8f52a9c516a2f824cde01e576
+
 </androidx.constraintlayout.widget.ConstraintLayout>

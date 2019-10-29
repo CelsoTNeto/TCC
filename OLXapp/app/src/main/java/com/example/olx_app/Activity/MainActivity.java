@@ -17,8 +17,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import com.example.olx_app.config.CPFauth;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,12 +32,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_cadastro);
         campoNome = findViewById(R.id.campoNome);
         campoEmail = findViewById(R.id.campoEmail);
         campoSenha = findViewById(R.id.campoSenha);
         campoCPF = findViewById(R.id.campoCPF);
-
+        Button btnchamalogin = (Button) findViewById(R.id.btnValidar);
 
 
     }

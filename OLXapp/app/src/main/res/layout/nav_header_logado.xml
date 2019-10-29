@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_header_user_not_logged"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:backgroundTint="@color/grey31"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_user"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        app:riv_border_color="@android:color/transparent"
+        app:riv_border_width="0dp"
+        app:riv_corner_radius="54dp"
+        app:riv_mutate_background="false"
+        app:riv_oval="true"
+        app:riv_tile_mode="clamp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_connected_as"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_user"
+        android:layout_toRightOf="@+id/iv_user"
+        android:layout_toEndOf="@+id/iv_user"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="Conectado"/>
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_user"
+        android:layout_toEndOf="@+id/iv_user"
+        android:layout_below="@+id/tv_connected_as"
+        android:layout_marginTop="-4dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</RelativeLayout>
